@@ -2,7 +2,7 @@ body{
     font-family: 'Kaushan Script', cursive;
     margin: 0px;
     padding: 0px;
-    background: url("images/mainbg.jpg");
+    background: url("./images/mainbg.jpg");
     opacity: 0.5 px;
     background-size: cover;
     
