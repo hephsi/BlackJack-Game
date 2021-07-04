@@ -5,7 +5,7 @@ This is my first game ever made using HTML,CSS and Javascript.
 
 ## Game Insights
 
-* We create a deck of cards containing 2 to 10 value cards and each of Ace,King and Queen that can be of any suit
+* We create a deck of cards containing 2 to 10 value cards and each of Ace,King,Queen and Joker that can be of any suit
 * Ace as a special card is evalueted as "1" or "11" depending on score of the player. If the score is below 21 ace value will be "11" otherwise it's value will be "1".
 * Card is drawn randomly in player box on clicking "Hit" button while card is generated randomly in Dealer box when player is on stand
 * Player can't get any more cards after he reaches "21" or gets passed it.
@@ -31,7 +31,7 @@ This game I created is slightly different from original game played at casinos. 
 
 # Assets of the Game
 
-* Different Images of 12 cards (can be found in images folder)
+* Different Images of 13 cards (can be found in images folder)
 * Different sound tracks while playing to make the game alive (available in sounds folder)
 
    
