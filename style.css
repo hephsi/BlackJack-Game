@@ -16,13 +16,13 @@ body{
     border: 1px solid black;
     margin : 50px 100px;
     height : 605px;
-    background-image: url("images/playgroundbg.jpg");
+    background-image: url("https://github.com/hephsi/BlackJack-Game/blob/3f425b28e5b1887bb2bc9323f05e313cdd302c16/images/playgroundbg.jpg");
     border-radius: 140px;
     box-shadow:30px 30px 50px rgba(42, 38, 38, 10);
 }
 
 .log{
-    background-image: url('images/leaderboard.jpg');
+    background-image: url('https://github.com/hephsi/BlackJack-Game/blob/3f425b28e5b1887bb2bc9323f05e313cdd302c16/images/leaderboard.jpg');
     background-repeat: no-repeat;
     background-size: 140%;
     background-position:center ;
