@@ -1,7 +1,7 @@
 # Building Blackjack Game in JavaScript
 This is a simple singleplayer game against the bot.
 This is my first game ever made using HTML,CSS and Javascript.
-
+see my game [here](https://hephsi.github.io/BlackJack-Game/)
 
 ## Game Insights
 
