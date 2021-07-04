@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div id="playground" class="container">
+            <h1><span id='blackjack-result'>LET'S PLAY</span></h1>
+            <div class="flex-game-row1">
+                <div id="player-box">
+                    <h2>
+                        PLAYER:
+                        <span id="player-score">0</span>
+                    </h2>
+                </div>
+                <div id="dealer-box">
+                    <h2>
+                        DEALER:
+                        <span id="dealer-score">0</span>
+                    </h2>
+                </div>
+
+            </div>
+            <div class="flex-game-row2">
+                <div>
+                    <button class='btn-lg btn-primary mr-2' id="hit">Hit</button>
+                    <button class='btn-lg btn-warning mr-2' id="stand">Stand</button>
+                    <button class='btn-lg btn-danger mr-2' id="restart">Restart</button>
+
+                </div>
+            </div>
+        </div>
+        <div class="log">
+            <table>
+                <tr>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Draws</th>
+                </tr>
+
+                <tr>
+                    <td><span id="wins">0</span></td>
+                    <td><span id="losses">0</span></td>
+                    <td><span id="draws">0</span></td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
