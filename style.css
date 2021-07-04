@@ -2,7 +2,7 @@ body{
     font-family: 'Kaushan Script', cursive;
     margin: 0px;
     padding: 0px;
-    background: url('https://github.com/hephsi/BlackJack-Game/blob/e5d1a8d435d2753c67a03b6889d9af17834ecb34/images/mainbg.jpg');
+    background: url('/images/mainbg.jpg');
     opacity: 0.5 px;
     background-size: cover;
     
