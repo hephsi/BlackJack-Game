@@ -2,7 +2,7 @@ body{
     font-family: 'Kaushan Script', cursive;
     margin: 0px;
     padding: 0px;
-    background: url("images/leaderboard.jpg");
+    background: url("images/mainbg.jpg");
     opacity: 0.5 px;
     background-size: cover;
     
@@ -16,7 +16,7 @@ body{
     border: 1px solid black;
     margin : 50px 100px;
     height : 605px;
-    background-image: url("images/leaderboard.jpg");
+    background-image: url("images/playgroundbg.jpg");
     border-radius: 140px;
     box-shadow:30px 30px 50px rgba(42, 38, 38, 10);
 }
