@@ -31,6 +31,7 @@ This game I created is slightly different from original game played at casinos. 
 
 ## Game Demo vedio
 
+![Demo](https://user-images.githubusercontent.com/50313861/124391086-82477800-dd0c-11eb-8a64-030f78e0d326.gif)
 
 
 # Assets of the Game
