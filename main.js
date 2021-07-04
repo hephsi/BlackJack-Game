@@ -74,7 +74,7 @@ function updateScore(card, activePlayer) {
 function showCard(card, activePlayer) {
     if (activePlayer['score'] <= 21) {
       let cardImage = document.createElement('IMG');
-      cardImage.src = '/images/${card}.png';
+      cardImage.src = 'https://github.com/hephsi/BlackJack-Game/blob/main/images/${card}.png';
       document.querySelector(activePlayer['div']).appendChild(cardImage);
       hitSound.play();
     }
