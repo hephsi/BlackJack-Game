@@ -29,6 +29,10 @@ This game I created is slightly different from original game played at casinos. 
 * Result will be displayed on the top according to score of player and dealer.
 * To start a new game click on "Restart" button.
 
+## Game Demo vedio
+
+
+
 # Assets of the Game
 
 * Different Images of 13 cards (can be found in images folder)
