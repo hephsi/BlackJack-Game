@@ -27,11 +27,11 @@ document.querySelector('#restart').addEventListener('click', blackjackDeal);
 
 
 //defining constant variables for sounds 
-const hitSound = new Audio('./sounds/swish.m4a');
-const winSound = new Audio('./sounds/cash.mp3');
-const lossSound = new Audio('./sounds/aww.mp3');
-const bangSound = new Audio('./sounds/bang.mp3');
-const drawSound = new Audio('./sounds/draw.mp3')
+const hitSound = new Audio('sounds/sounds/swish.m4a');
+const winSound = new Audio('sounds/sounds/cash.mp3');
+const lossSound = new Audio('sounds/sounds/aww.mp3');
+const bangSound = new Audio('sounds/sounds/bang.mp3');
+const drawSound = new Audio('sounds/sounds/draw.mp3')
 
 
 //when we click on hit button random card got picked in players box and score will get updated
@@ -74,7 +74,7 @@ function updateScore(card, activePlayer) {
 function showCard(card, activePlayer) {
     if (activePlayer['score'] <= 21) {
       let cardImage = document.createElement('IMG');
-      cardImage.src = "./images/${card}.png"
+      cardImage.src = "images/images/${card}.png"
       document.querySelector(activePlayer['div']).appendChild(cardImage);
       hitSound.play();
     }
