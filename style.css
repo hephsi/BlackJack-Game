@@ -2,7 +2,7 @@ body{
     font-family: 'Kaushan Script', cursive;
     margin: 0px;
     padding: 0px;
-    background: url(images/mainbg.jpg);
+    background: url(images/mainbg.jpg) no-repeat center center fixed;
     opacity: 0.5 px;
     background-size: cover;
     
@@ -16,13 +16,13 @@ body{
     border: 1px solid black;
     margin : 50px 100px;
     height : 605px;
-    background-image: url("https://drive.google.com/file/d/1JG2_nOE2F8N4Tlr16sjzjEJQnQ7BqlJj/view?usp=sharing");
+    background-image: url(images/mainbg.jpg);
     border-radius: 140px;
     box-shadow:30px 30px 50px rgba(42, 38, 38, 10);
 }
 
 .log{
-    background-image: url('https://drive.google.com/file/d/1JG2_nOE2F8N4Tlr16sjzjEJQnQ7BqlJj/view?usp=sharing');
+    background-image: url(images/mainbg.jpg);
     background-repeat: no-repeat;
     background-size: 140%;
     background-position:center ;
