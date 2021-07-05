@@ -214,6 +214,8 @@ let message, messageColor;
 
 }
 
+//function to start game from start i.e., even score board gets refreashed
+
 function restartblackjack() {
    
   blackjackDeal();  
